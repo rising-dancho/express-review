@@ -21,3 +21,5 @@ app.get('/about', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is listening on ${PORT}`);
 });
+
+// deploying on vercel, and what needs to be written inside vercel.json: https://chatgpt.com/share/5c65c21a-27be-420a-955d-66babc660f58
